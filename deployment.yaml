@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: shashank54321/hello-world:latest
+        image: gajendraachar/hello-world:latest
         # This app listens on port 8080 for web traffic by default.
         ports:
         - containerPort: 8080

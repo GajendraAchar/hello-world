@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: helloworld-gke
+  name: hello-world
 spec:
   replicas: 1
   selector:
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: shashank54321/hello-world:latest
+        image: gajendraachar/hello-world:latest
         # This app listens on port 8080 for web traffic by default.
         ports:
         - containerPort: 8080
